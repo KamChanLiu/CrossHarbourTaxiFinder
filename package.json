@@ -1,0 +1,21 @@
+{
+  "name": "CrossHarbourTaxiFinder",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KamChanLiu/CrossHarbourTaxiFinder.git"
+  },
+  "author": "Kam Liu",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/KamChanLiu/CrossHarbourTaxiFinder/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
