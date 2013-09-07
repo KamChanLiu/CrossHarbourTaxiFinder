@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Central & Western - Admiralty Station",
+        "chineseName": "中西區 - 金鐘站",
+        "longitude": "114.164559",
+        "latitude": "22.279421",
+        "locationDesc": "Admiralty Station, Central & Western, Hong Kong Island",
+        "island": "Hong Kong",
+        "status": "Urban Taxi Stand"
+    },
+    {
+        "id": "2",
+        "name": "Central & Western - Charter Road",
+        "chineseName": "中西區 - 遮打道",
+        "longitude": "114.158954",
+        "latitude": "22.281633",
+        "locationDesc": "Chater Road (outside Alexandra House), Central & Western, Hong Kong Island",
+        "island": "Hong Kong",
+        "status": "Urban Taxi Stand"
+    },
+    {
+        "id": "3",
+        "name": "Kowloon City - Bailey St.",
+        "chineseName": "九龍城區 - 庇利街",
+        "longitude": "114.191355",
+        "latitude": "22.315775",
+        "locationDesc": "Bailey St., Kowloon City, Kowloon",
+        "island": "Kowloon",
+        "status": "Urban Taxi Stand"
+    },
+    {
+        "id": "4",
+        "name": "Kowloon City - Chung Hau St.",
+        "chineseName": "九龍城區 - 忠孝街",
+        "longitude": "114.180864",
+        "latitude": "22.314433",
+        "locationDesc": "Chung Hau St., Kowloon City, Kowloon",
+        "island": "Kowloon",
+        "status": "Urban Taxi Stand"
+    }    
+]
