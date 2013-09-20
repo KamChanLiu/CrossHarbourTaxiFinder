@@ -5,6 +5,6 @@ Cross Harbour Taxi Finder
 
 ##Installation
 * [Install node.js](http://nodejs.org/download/)
-* Run the server
-    node server.js
-* Browse to the application at [http://localhost:1337]
+* Run the server from the root directory
+    node ./scripts/web-server.js
+* Browse to the application at [http://localhost:1337/app/index.html]
