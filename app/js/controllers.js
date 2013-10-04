@@ -43,4 +43,15 @@ function LocationListCtrl($scope, TaxiStand) {
     $scope.markerLat = null;
     $scope.markerLng = null;    
   }
+
+  $scope.findMe = function () {    
+      navigator.geolocation.getCurrentPosition(function (position) {
+        $scope.center.longitude = position.coords.longitude;
+        $scope.center.latitude = position.coords.latitude;
+        $scope.zoom = 18;
+        $scope.$apply();
+      }, function () {
+          alert('Unable to find your location!');
+      });
+    }
 }

@@ -1,5 +1,6 @@
   <div class="span4">    
       <div id="location-list">
+        <button type="button" ng-click="findMe()">Find Me</button>
         <label>Search Locations</label>
           <div class="input-append">
             <input ng-model="query" type="text"><span class="add-on"><i class="icon-search"></i></span>
@@ -21,5 +22,5 @@
     </div>      
   </div>
   <div class="span8">
-    <google-map id="location-map" center="center" draggable="true" zoom="zoom" markers="markers" mark-click="true"></google-map>
+    <google-map id="location-map" center="center" draggable="true" zoom="zoom" markers="markers" mark-click="false"></google-map>
   </div>
