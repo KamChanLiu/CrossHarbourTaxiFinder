@@ -2,9 +2,10 @@
 /* Controllers */
 
 function LocationListCtrl($scope, TaxiStand) {
-	$scope.locations = TaxiStand.query();
-
+	$scope.locations = TaxiStand.query(); 
 	$scope.currentIsland = 'Hong Kong';
+  $scope.currentLocation = -1;
+
 	$scope.CreateHeader = function(island) {
 	      var showHeader = (island!=$scope.currentIsland); 
 	       $scope.currentIsland = island;
@@ -20,12 +21,14 @@ function LocationListCtrl($scope, TaxiStand) {
     markers: []
   });
 
-  $scope.changelocation = function($longitude, $latitude){
+  $scope.changeLocation = function($index, $longitude, $latitude){
       $scope.center.longitude = $longitude;
       $scope.center.latitude = $latitude;
-      $scope.zoom = 18;
+      $scope.zoom = 18;     
 
-      this.addTaxiMarker($longitude, $latitude);          
+      this.addTaxiMarker($longitude, $latitude);
+      $scope.currentLocation = $index;
+      console.log($scope.currentLocation);
   }
 
   $scope.addTaxiMarker = function($longitude, $latitude) {
