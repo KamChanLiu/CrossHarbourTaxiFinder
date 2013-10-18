@@ -16,5 +16,9 @@
 #location-map {
   height: 400px; 
   width: 100%; 
-  float: left;
+  float: left;  
+}
+
+#location-map img {
+	max-width: none;
 }
