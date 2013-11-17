@@ -1,30 +1,31 @@
 <!doctype html>
-<html lang="en" ng-app="taxistand">
-<head>
-  <meta charset="utf-8">
-  <title>Hong Kong Cross Harbour Taxi Stands</title>
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap-responsive.css">
-  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/angular-google-maps.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/services.js"></script>
-  <script src="lib/angular/angular-resource.js"></script>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hong Kong Cross Harbour Taxi Stands</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/bootstrap.css">    
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body ng-app="taxiStandApp">
+        <div class="row-fluid">
+            <div id="nav" class="span12">
+                <h1 class="muted">Cross Harbour Taxi Stands</h1>
+            </div>
+        </div>
 
-<div class="row-fluid">
-<div class="span12">
-  <h1 class="muted">Cross Harbour Taxi Stands</h1>
-</div>
-</div>
+        <div class="row-fluid" ng-view="">      
+        </div>
 
-  <div ng-view class="row-fluid">  
-    
-</div>
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="/bower_components/angular-resource/angular-resource.js"></script>  
+        <script src="bower_components/angular-google-maps/src/angular-google-maps.js"></script>        
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
+
+        <script src="scripts/app.js"></script>
+        <script src="scripts/services/services.js"></script>
+        <script src="scripts/controllers/main.js"></script>    
 </body>
 </html>

@@ -1,0 +1,35 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+/*******************************
+            Map
+********************************/
+#location-map {
+  height: 400px; 
+  width: 100%; 
+  float: left;
+}
+
+#location-map img {
+    max-width: none;
+}
+
+
+/*******************************
+        Location List
+********************************/
+#location-list .nav li {
+  cursor: pointer;
+}
+
+#location-list .location-selected {
+  background-color: #ebebeb;
+}
+
+.location-group-header {
+  font-weight: bold;
+  border-bottom: 1px solid #000000;  
+}
